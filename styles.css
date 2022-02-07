@@ -1,13 +1,24 @@
-body{
-    background-color: aquamarine;
-    font-family: 'Oswald', sans-serif;
+body {
+    width: 850px;
+    margin: 0 auto;
+
+
 }
 
-div.main-cointainer {
-    border: 2px solid red;
-}
-header,
 main {
-    border: 2px solid white;
-    height: 400px;
+   margin: 0 auto;
+   height: 450px;
+   background-image: url(C:\Users\Jakeb\devFolder\NASA_Page);
+}
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    width: 270px;
+    height: 374px;
+    background-color: rgb(224, 222, 222);
 }
